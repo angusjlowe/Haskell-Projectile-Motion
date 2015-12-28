@@ -9,13 +9,14 @@ type Velocity = Vector
 scl :: Float
 scl = 0.01
 
---The size of the ball is always 20px, which is 20 / scl m
+--The size of the ball is always __ px, which is __ / scl m
 ballsize :: Float
 ballsize = 20
 
 v ::  Velocity
 v = (4/scl,6/scl)
 
+--Planet Earth
 g :: Float
 g = 9.81/scl
 
